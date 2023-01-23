@@ -16,7 +16,7 @@ body {
   @import url("https://fonts.googleapis.com/css2?family=Inter&family=Open+Sans&display=swap");
 }
 
-@media (min-width: 576px) {
+@media (min-width:0px) and (min-width: 576px) {
   .container {
     margin: 0 auto;
     max-width: 576px;
@@ -684,6 +684,7 @@ body {
         }
         button {
           position: absolute;
+          z-index: 1;
           top: 210px;
           left: 335px;
           background-color: $button-color;
